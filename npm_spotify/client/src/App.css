@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, body {
+  margin:0;
+  padding:0;
+  background-color: black;
+}
+
+h1 {
+  margin:0;
+}
+
+.App {
+  background-color: black;
+}
+
+.playlist-title {
+  text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.playlist-title-parent {
+  background-color: #1DB954;
+  border-radius: 30px;
+  position: relative;
+  width: 20%;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.user {
+  text-align: left;
+  display:inline-flex;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color:white;
+}
+
+.profile-img {
+  height: 50px;
+  width: 50px;
+  margin-left: 1.5rem; 
+  border-radius: 60%;
+}
+
+.playlist {
+  text-align: center;
+  width: 50%;
+  margin-left: 2rem;
+  background-color: white !important;
+  border-radius: 1.5% !important;
+}
+
+.playlist-name {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+}
+
+.view-spotify-btn-parent {
+  border-radius: 30px;
+}
+
+.view-spotify-btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+  background-color: #1DB954;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  width: 15rem;
+}
+
+.login-btn-parent {
+ position: relative;
+ margin-top: 2rem;
+ margin-right: 9rem;
+}
+
+.login-btn {
+  background-color: #1DB954;
+  border-radius: 30px;
+  width: 130%;
+  margin-left: 2rem;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.9rem;
+  color:white;
+}
+
+.sign-in-body {
+  background-color: black;
+}
+
+.sign-in-text, .copyright {
+  color: white;
+}
