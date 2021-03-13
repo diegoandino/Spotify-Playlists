@@ -8,7 +8,6 @@ const client_secret = '8abd5d27fc36473bb18b06143a36dc08';
 
 let SpotifyWebApi = require('spotify-web-api-node');
 
-
 // Static Imports
 app.use(express.static('views'));
 app.use('/css', express.static(__dirname + 'views/css'));
